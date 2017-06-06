@@ -67,6 +67,7 @@ public class HomeWork3 {
         result1 = ((firstValue / 100) * 10) + (firstValue % 10);
         System.out.println(result1);  
         drawStars();
+        //
         
         
     }
