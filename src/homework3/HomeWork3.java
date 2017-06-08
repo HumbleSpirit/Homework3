@@ -36,6 +36,9 @@ public class HomeWork3 {
         int tempValue4 = 0;
         int result1 = 0;
         int result2 = 0;
+        double percentValue = 0;
+        double accountValue = 0;
+        double bankTemp1 = 0;
         
         Scanner in = new Scanner(System.in); 
         System.out.println("Task 1");
@@ -66,6 +69,17 @@ public class HomeWork3 {
         firstValue = in.nextInt();  
         result1 = ((firstValue / 100) * 10) + (firstValue % 10);
         System.out.println(result1);  
+        drawStars();
+        
+        System.out.println("Task 4");
+        System.out.println("Let's count amount of percents, which bank should pay monthly");
+        System.out.println("Please input amount on account");  
+        accountValue = in.nextDouble();  
+        System.out.println("Please input percent rate");  
+        percentValue = in.nextDouble();  
+        bankTemp1 =  (accountValue / 100) * percentValue;
+        System.out.println(bankTemp1);  
+        
         drawStars();
         //
         
