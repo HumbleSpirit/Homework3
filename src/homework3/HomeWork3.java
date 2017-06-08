@@ -80,9 +80,7 @@ public class HomeWork3 {
         bankMonthly1 = (accountValue * percentValue * 30.5)/(365 * 100);
         System.out.println("Monthly percents amount is " + bankMonthly1);  
         drawStars();
-        
-        
-        
+                       
     }
     
 }
