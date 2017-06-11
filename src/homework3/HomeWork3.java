@@ -53,10 +53,10 @@ public class HomeWork3 {
         firstValue = in.nextInt();  
         System.out.println("Please input three digits of second value");  
         secondValue = in.nextInt();  
-        tempValue1 = ((firstValue / 100) * 100) + ((secondValue % 100 / 10 )*10) + (firstValue % 10);
-        System.out.println(tempValue1);  
-        tempValue2 = ((secondValue / 100) * 100) + ((firstValue % 100 / 10 )*10) + (secondValue % 10);
-        System.out.println(tempValue2);  
+        result1 = ((firstValue / 100) * 100) + ((secondValue % 100 / 10 )*10) + (firstValue % 10);
+        System.out.println(result1);  
+        result2 = ((secondValue / 100) * 100) + ((firstValue % 100 / 10 )*10) + (secondValue % 10);
+        System.out.println(result2);  
         drawStars();
         
         System.out.println("Task 2");
