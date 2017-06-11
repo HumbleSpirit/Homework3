@@ -47,7 +47,7 @@ public class HomeWork3 {
         int temp5 = 0;
         
         Scanner in = new Scanner(System.in); 
-        /*System.out.println("Task 1");
+        System.out.println("Task 1");
         System.out.println("Move middle digits in two three-digits numbers");
         System.out.println("Please input three digits of first value");  
         firstValue = in.nextInt();  
@@ -134,11 +134,44 @@ public class HomeWork3 {
         temp2 = a % 100 / 10; // Десятки первого числа
         temp3 = a % 10; //Единицы первого числа
         System.out.println((temp3 * 100) + (temp2 * 10) + temp1);
-        drawStars();*/
-
+        drawStars();
         
-
         
+        System.out.println("Task 9");
+        System.out.println("Shift number to 2 digits to the right ");
+        System.out.println("Please enter 5-digit number");
+        a = in.nextInt();  
+        temp1 = a / 10000; // Десятки тысяч числа
+        //System.out.println(temp1);
+        temp2 = a % 10000 / 1000; //Тысячи числа
+        //System.out.println(temp2);
+        temp3 = a % 1000 /100; //Сотни числа
+        //System.out.println(temp3);
+        temp4 = a % 100 / 10; // Десятки  числа
+        //System.out.println(temp4);
+        temp5 = a % 10; //Единицы  числа
+        //System.out.println(temp5);
+        result1 = ((temp4 * 10000) + (temp5 * 1000) + (temp1 * 100) + (temp2 *10) + temp3);
+        System.out.println(result1);
+        drawStars();
+        
+        System.out.println("Task 10");
+        System.out.println("Shift number to 2 digits to the left");
+        System.out.println("Please enter 5-digit number");
+        a = in.nextInt();  
+        temp1 = a / 10000; // Десятки тысяч числа
+        //System.out.println(temp1);
+        temp2 = a % 10000 / 1000; //Тысячи числа
+        //System.out.println(temp2);
+        temp3 = a % 1000 /100; //Сотни числа
+        //System.out.println(temp3);
+        temp4 = a % 100 / 10; // Десятки  числа
+        //System.out.println(temp4);
+        temp5 = a % 10; //Единицы  числа
+        //System.out.println(temp5);
+        result1 = ((temp3 * 10000) + (temp4 * 1000) + (temp5 * 100) + (temp1 *10) + temp2);
+        System.out.println(result1);
+        drawStars();
     }
     
 }
